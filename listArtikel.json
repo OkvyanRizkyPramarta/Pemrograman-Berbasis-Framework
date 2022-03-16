@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "userId": 1,
+      "id": 1,
+      "title": "Jurusan Teknologi Informasi, Prodi Teknik Informatika",
+      "body": "Kelas TI - 3F"
+    },
+    {
+      "userId": 1,
+      "id": 2,
+      "title": "Jurusan Teknologi Informasi, Prodi Teknik Informatika",
+      "body": "Okvyan Rizky Pramarta"
+    },
+    {
+      "userId": 1,
+      "id": 1647361681803,
+      "title": " Jurusan Teknologi Informasi, Prodi Teknik Informatika",
+      "body": "1941720114"
+    }
+  ]
+}
