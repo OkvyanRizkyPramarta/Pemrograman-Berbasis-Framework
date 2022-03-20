@@ -7,7 +7,7 @@ class BlogPost extends Component {
         listArtikel:[],
         insertArtikel: {
             userId: 1,
-            id: 3,
+            id: 1,
             title: "",
             body: ""
         }

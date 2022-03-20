@@ -9,7 +9,8 @@ const Mahasiswa = (props) => {
                   <td className="">{props.hp}</td>
                   <td className="">{props.angkatan}</td>
                   <td className="">{props.status}</td>
-                  <button className="btn btn-sm btn-warning" onClick={() => props.hapusData(props.nim)}>Hapus</button>
+                  <button className="btn btn-sm btn-warning" onClick={() => props.hapusData(props.idMahasiswa)}>Hapus</button>
+                  
                 </tr>
         )
 }
