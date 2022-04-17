@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "userId": 1,
+      "id": 1,
+      "title": "Jurusan Teknologi Informasi, Prodi Teknik Informatika",
+      "body": "Kelas TI - 3F"
+    },
+    {
+      "userId": 1,
+      "id": 2,
+      "title": "Jurusan Teknologi Informasi, Prodi Teknik Informatika",
+      "body": "Okvyan Rizky Pramarta"
+    },
+    {
+      "userId": 1,
+      "id": 1647361681803,
+      "title": " Jurusan Teknologi Informasi, Prodi Teknik Informatika",
+      "body": "1941720114"
+    },
+    {
+      "userId": 1,
+      "id": 1650174687978,
+      "title": "Hapus 1",
+      "body": "Nothing"
+    },
+    {
+      "userId": 1,
+      "id": 1650174691129,
+      "title": "Hapus 2",
+      "body": "Nothing"
+    },
+    {
+      "userId": 1,
+      "id": 1650174694073,
+      "title": "Hapus 3",
+      "body": "Nothing"
+    }
+  ]
+}
