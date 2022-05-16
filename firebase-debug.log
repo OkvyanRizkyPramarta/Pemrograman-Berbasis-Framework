@@ -1,0 +1,33 @@
+[debug] [2022-05-15T06:05:36.547Z] ----------------------------------------------------------------------
+[debug] [2022-05-15T06:05:36.550Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\xaxa\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2022-05-15T06:05:36.551Z] CLI Version:   10.9.2
+[debug] [2022-05-15T06:05:36.552Z] Platform:      win32
+[debug] [2022-05-15T06:05:36.552Z] Node Version:  v16.13.0
+[debug] [2022-05-15T06:05:36.554Z] Time:          Sun May 15 2022 13:05:36 GMT+0700 (Western Indonesia Time)
+[debug] [2022-05-15T06:05:36.554Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-15T06:05:36.651Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-15T06:05:36.651Z] > authorizing via signed-in user (pramarta26@gmail.com)
+[debug] [2022-05-15T06:05:36.651Z] [iam] checking project project-firebase-260b7 for permissions ["firebase.projects.get"]
+[debug] [2022-05-15T06:05:36.653Z] > refreshing access token with scopes: []
+[debug] [2022-05-15T06:05:36.654Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-05-15T06:05:36.844Z] <<< HTTP RESPONSE 200 {"date":"Sun, 15 May 2022 06:05:26 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-05-15T06:05:37.024Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/project-firebase-260b7:testIamPermissions [none]
+[debug] [2022-05-15T06:05:37.025Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/project-firebase-260b7:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-05-15T06:05:38.137Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/project-firebase-260b7:testIamPermissions 200
+[debug] [2022-05-15T06:05:38.138Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/project-firebase-260b7:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-05-15T06:05:38.139Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/project-firebase-260b7 [none]
+[debug] [2022-05-15T06:05:38.818Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/project-firebase-260b7 200
+[debug] [2022-05-15T06:05:38.818Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/project-firebase-260b7 {"projectId":"project-firebase-260b7","projectNumber":"465928968891","displayName":"project-firebase","name":"projects/project-firebase-260b7","resources":{"hostingSite":"project-firebase-260b7","storageBucket":"project-firebase-260b7.appspot.com","locationId":"us-central"},"state":"ACTIVE"}
+[info] 
+[info] === Serving from 'E:\Kelas 3 - Semester 6\Framework\Modul11\cloud-firebase'...
+[info] 
+[debug] [2022-05-15T06:05:38.822Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/project-firebase-260b7/sites 
+[debug] [2022-05-15T06:05:40.286Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/project-firebase-260b7/sites 200
+[debug] [2022-05-15T06:05:40.286Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/project-firebase-260b7/sites {"sites":[{"name":"projects/project-firebase-260b7/sites/project-firebase-260b7","defaultUrl":"https://project-firebase-260b7.web.app","appId":"1:465928968891:web:c4a7b293c37832b85b679e","type":"DEFAULT_SITE"}]}
+[debug] [2022-05-15T06:05:40.287Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/project-firebase-260b7/webApps/1:465928968891:web:c4a7b293c37832b85b679e/config [none]
+[debug] [2022-05-15T06:05:41.593Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/project-firebase-260b7/webApps/1:465928968891:web:c4a7b293c37832b85b679e/config 200
+[debug] [2022-05-15T06:05:41.593Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/project-firebase-260b7/webApps/1:465928968891:web:c4a7b293c37832b85b679e/config {"projectId":"project-firebase-260b7","appId":"1:465928968891:web:c4a7b293c37832b85b679e","storageBucket":"project-firebase-260b7.appspot.com","locationId":"us-central","apiKey":"AIzaSyDz13BbDGDF_xzAGd7D8CSD6qZK91QFqjc","authDomain":"project-firebase-260b7.firebaseapp.com","messagingSenderId":"465928968891","measurementId":"G-VBZZRQ34L6"}
+[info] i  hosting: Serving hosting files from: Y {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mY\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
